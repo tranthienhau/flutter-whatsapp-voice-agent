@@ -1,0 +1,24 @@
+name: flutter_whatsapp_voice_agent
+description: "Flutter POC - WhatsApp Business voice AI receptionist with Vapi/Retell + Claude summary + Supabase dashboard. All external services mocked."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.5.1
+  go_router: ^14.6.2
+  intl: ^0.19.0
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
