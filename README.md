@@ -10,6 +10,17 @@ and action items, and Supabase persisting the call history shown in the app.
 > swapped for the real client in a normal production build. This repo is a
 > code sample, not a billable client deliverable.
 
+## Demo
+
+Real iOS-Simulator captures from the running app (not mockups). See
+[FLOW.md](FLOW.md) for how they are generated.
+
+| Dashboard | Call detail | Settings |
+| --- | --- | --- |
+| ![Dashboard](screenshots/01-dashboard.png) | ![Call detail](screenshots/02-call-detail.png) | ![Settings](screenshots/03-settings.png) |
+
+![Demo](screenshots/demo.gif)
+
 ## What the app does
 
 1. A WhatsApp Business voice call comes in.
